@@ -1,6 +1,6 @@
 import { TbCircleXFilled } from 'react-icons/tb';
 
-const PostList = ({ posts, title }) => {
+const PostList = ({ posts, title, handleDelete }) => {
   return (
     <div className="post-list max-w-3xl m-auto p4">
       <h2 className="text-2xl font-semibold mb-4">{title}</h2>
@@ -14,7 +14,7 @@ const PostList = ({ posts, title }) => {
           <p className="text-xs text-right">Written by {post.author}</p>
           <button
             className="absolute top right -top-3 -right-3"
-            onClick={() => {}}
+            onClick={() => handleDelete(post.id)}
           >
             <TbCircleXFilled className="red h-8 w-8 text-slate-800 hover:text-slate-900 invisible group-hover:visible transition" />
           </button>
