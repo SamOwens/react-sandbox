@@ -1,5 +1,3 @@
-import { TbCircleXFilled } from 'react-icons/tb';
-
 const PostList = ({ posts, title, handleDelete }) => {
   return (
     <div className="post-list max-w-3xl m-auto p4">
