@@ -18,6 +18,11 @@ const Home = () => {
   }, []);
   // The empty dependency array means this useEffect runs only once, when the component mounts
 
+  useEffect(() => {
+    console.log('use effect ran');
+    console.log(name);
+  }, [name]);
+
   return (
     <div className="home p-4">
       {posts && (
