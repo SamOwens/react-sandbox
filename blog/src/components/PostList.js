@@ -12,12 +12,6 @@ const PostList = ({ posts, title, handleDelete }) => {
           <h2 className="font-semibold text-xl mb-2">{post.title}</h2>
           <p className="pb-4">{post.intro}</p>
           <p className="text-xs text-right">Written by {post.author}</p>
-          <button
-            className="absolute top right -top-3 -right-3"
-            onClick={() => handleDelete(post.id)}
-          >
-            <TbCircleXFilled className="red h-8 w-8 text-slate-800 hover:text-slate-900 invisible group-hover:visible transition" />
-          </button>
         </div>
       ))}
     </div>
