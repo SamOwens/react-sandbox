@@ -1,31 +1,30 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import PostList from './PostList';
 
-// Grab post data
-import postData from '../data/postData';
-
 const Home = () => {
-  const [posts, setPosts] = useState(postData);
+  const [posts, setPosts] = useState(null);
+  // Initializing the 'posts' state variable to null using the useState hook
+  // 'setPosts' is the function to update the 'posts' state
 
-  const handleDelete = (id) => {
-    const tempPosts = posts.filter((post) => post.id !== id);
-    setPosts(tempPosts);
-  };
+  useEffect(() => {
+    // Defining a useEffect hook that runs once after the component mounts
 
-  const samPosts = posts.filter((post) => post.author === 'Sam');
+    fetch('http://localhost:8000/posts')
+      // Making a GET request to fetch posts from the server
+      .then((res) => res.json())
+      // Parsing the response as JSON
+      .then((data) => setPosts(data));
+    // Updating the 'posts' state with the fetched data
+  }, []);
+  // The empty dependency array means this useEffect runs only once, when the component mounts
 
   return (
     <div className="home p-4">
-      <PostList
-        posts={posts}
-        title="All Posts"
-        handleDelete={handleDelete}
-      />
-      {samPosts.length > 0 && (
+      {posts && (
+        // Conditional rendering: only render PostList if 'posts' is not null
         <PostList
-          posts={samPosts}
-          title="Sam's Posts"
-          handleDelete={handleDelete}
+          posts={posts}
+          title="All Posts"
         />
       )}
     </div>
