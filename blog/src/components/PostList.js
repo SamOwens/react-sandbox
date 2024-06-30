@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 const PostList = ({ posts, title, handleDelete }) => {
   return (
     <div className="post-list max-w-3xl m-auto p4">
@@ -7,9 +9,11 @@ const PostList = ({ posts, title, handleDelete }) => {
           className="group p-4 mb-4 rounded-md bg-slate-200 shadow-md hover:bg-slate-300 cursor-pointer relative transition"
           key={post.id}
         >
-          <h2 className="font-semibold text-xl mb-2">{post.title}</h2>
-          <p className="pb-4">{post.intro}</p>
-          <p className="text-xs text-right">Written by {post.author}</p>
+          <Link to={`/post/${post.id}`}>
+            <h2 className="font-semibold text-xl mb-2">{post.title}</h2>
+            <p className="pb-4">{post.intro}</p>
+            <p className="text-xs text-right">Written by {post.author}</p>
+          </Link>
         </div>
       ))}
     </div>
