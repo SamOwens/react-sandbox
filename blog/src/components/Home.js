@@ -1,29 +1,12 @@
-import { useState, useEffect } from 'react';
 import PostList from './PostList';
+import useFetch from '../hooks/useFetch';
 
 const Home = () => {
-  const [posts, setPosts] = useState(null);
-  const [isLoading, setIsLoading] = useState(true);
-  const [error, setError] = useState(null);
-
-  useEffect(() => {
-    fetch('http://localhost:8000/posts')
-      .then((res) => {
-        if (!res.ok) {
-          throw Error('Fetch Failed');
-        }
-        return res.json();
-      })
-      .then((data) => {
-        setPosts(data);
-        setIsLoading(false);
-        setError(null);
-      })
-      .catch((err) => {
-        setIsLoading(false);
-        setError(err.message);
-      });
-  }, []);
+  const {
+    data: posts,
+    isLoading,
+    error,
+  } = useFetch('http://localhost:8000/posts');
 
   return (
     <div className="home p-4">
