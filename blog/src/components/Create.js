@@ -6,10 +6,20 @@ const Create = () => {
   const [content, setContent] = useState('');
   const [author, setAuthor] = useState('Sam');
 
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const post = { title, intro, content, author };
+
+    console.log(post);
+  };
+
   return (
     <div className="create content-container">
       <h2 className="text-2xl font-semibold mb-4">Create a New Post</h2>
-      <form className="flex flex-col">
+      <form
+        onSubmit={handleSubmit}
+        className="flex flex-col"
+      >
         <label className="input-label">Title</label>
         <input
           type="text"
@@ -42,12 +52,12 @@ const Create = () => {
           <option value="Silje">Silje</option>
           <option value="Willow">Willow</option>
         </select>
+        <div className="flex justify-end">
+          <button className="button bg-slate-800 text-white hover:bg-slate-700">
+            Add Post
+          </button>
+        </div>
       </form>
-      <div className="flex justify-end">
-        <button className="button bg-slate-800 text-white hover:bg-slate-700">
-          Add Post
-        </button>
-      </div>
     </div>
   );
 };
