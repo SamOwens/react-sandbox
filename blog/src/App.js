@@ -1,5 +1,6 @@
 import Header from './components/Header';
 import Home from './components/Home';
+import Create from './components/Create';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 function App() {
@@ -11,9 +12,15 @@ function App() {
           <Switch>
             <Route
               exact
-              path="/hello"
+              path="/"
             >
-              <Home></Home>
+              <Home />
+            </Route>
+            <Route
+              exact
+              path="/create"
+            >
+              <Create />
             </Route>
           </Switch>
         </div>
