@@ -1,13 +1,6 @@
 {
   "posts": [
     {
-      "title": "Example Post 4",
-      "intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus mollis, enim in ornare fermentum, nibh ante iaculis tortor, vitae mollis tellus massa nec justo.",
-      "content": "Praesent hendrerit nisl scelerisque egestas posuere. Vestibulum mi quam, varius a nibh et, malesuada laoreet urna. Donec id justo lobortis, laoreet turpis volutpat, tincidunt ligula. Suspendisse potenti. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus pulvinar sapien vel iaculis viverra. Nulla accumsan justo vitae velit sodales interdum. Suspendisse ac mi sed lorem bibendum vestibulum id nec tellus. Ut mollis pulvinar tellus. Praesent accumsan, felis a sodales condimentum, nulla enim luctus risus, in ultrices sapien erat sed tellus. Maecenas facilisis enim quis neque eleifend iaculis eu vel erat. Quisque nec diam id nunc euismod euismod.",
-      "author": "Sam",
-      "id": "4"
-    },
-    {
       "id": "a6b5",
       "title": "Test Post",
       "intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent imperdiet, libero at ultricies dapibus, tellus turpis rutrum quam, sed euismod leo lectus ac sapien. ",
