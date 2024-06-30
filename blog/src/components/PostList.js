@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 
 const PostList = ({ posts, title, handleDelete }) => {
   return (
-    <div className="post-list max-w-3xl m-auto p4">
+    <div className="post-list max-w-3xl m-auto">
       <h2 className="text-2xl font-semibold mb-4">{title}</h2>
       {posts.map((post) => (
         <div
