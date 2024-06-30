@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { useHistory } from 'react-router-dom';
 
 const Create = () => {
   const [title, setTitle] = useState('');
@@ -6,6 +7,7 @@ const Create = () => {
   const [content, setContent] = useState('');
   const [author, setAuthor] = useState('Sam');
   const [isLoading, setIsLoading] = useState(false);
+  const history = useHistory();
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -18,11 +20,9 @@ const Create = () => {
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(post),
     }).then(() => {
-      setTitle('');
-      setIntro('');
-      setContent('');
-      setAuthor('Sam');
       setIsLoading(false);
+      // history.go(-1)
+      history.push('/');
     });
   };
 
