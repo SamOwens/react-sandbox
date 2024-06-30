@@ -1,0 +1,19 @@
+.button {
+  @apply p-2 rounded-md transition-all duration-200 ease-in-out;
+}
+
+.nav-button {
+  @apply p-2 text-white bg-slate-600 hover:bg-slate-700 rounded-md transition-all duration-200 ease-in-out;
+}
+
+.content-container {
+  @apply max-w-3xl m-auto p-4;
+}
+
+.input-label {
+  @apply font-semibold mb-1;
+}
+
+.input-style {
+  @apply border border-gray-300 mb-4 p-2;
+}

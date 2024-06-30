@@ -11,7 +11,7 @@ const PostDetails = () => {
   } = useFetch(`http://localhost:8000/posts/${id}`);
 
   return (
-    <div className="post p-4">
+    <div className="post content-container">
       {error && (
         <div className="flex justify-center items-center font-semibold text-xl mt-10">
           {error}
@@ -23,7 +23,7 @@ const PostDetails = () => {
         </div>
       )}
       {post && (
-        <div className="post max-w-3xl m-auto">
+        <div className="post-wrapper">
           <h2 className="text-2xl font-semibold mb-4">{post.title}</h2>
           <p className="pb-4">{post.content}</p>
           <p className="text-xs text-right">Written by {post.author}</p>

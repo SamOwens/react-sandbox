@@ -9,7 +9,7 @@ const Home = () => {
   } = useFetch('http://localhost:8000/posts');
 
   return (
-    <div className="home p-4">
+    <div className="home">
       {error && (
         <div className="flex justify-center items-center font-semibold text-xl mt-10">
           {error}
