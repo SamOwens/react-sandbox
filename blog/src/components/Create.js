@@ -5,12 +5,25 @@ const Create = () => {
   const [intro, setIntro] = useState('');
   const [content, setContent] = useState('');
   const [author, setAuthor] = useState('Sam');
+  const [isLoading, setIsLoading] = useState(false);
 
   const handleSubmit = (e) => {
     e.preventDefault();
     const post = { title, intro, content, author };
 
-    console.log(post);
+    setIsLoading(true);
+
+    fetch('http://localhost:8000/posts', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(post),
+    }).then(() => {
+      setTitle('');
+      setIntro('');
+      setContent('');
+      setAuthor('Sam');
+      setIsLoading(false);
+    });
   };
 
   return (
@@ -53,9 +66,19 @@ const Create = () => {
           <option value="Willow">Willow</option>
         </select>
         <div className="flex justify-end">
-          <button className="button bg-slate-800 text-white hover:bg-slate-700">
-            Add Post
-          </button>
+          {!isLoading && (
+            <button className="button bg-slate-800 text-white hover:bg-slate-700">
+              Add Post
+            </button>
+          )}
+          {isLoading && (
+            <button
+              disabled
+              className="button bg-slate-800 text-white hover:bg-slate-700"
+            >
+              Add Post
+            </button>
+          )}
         </div>
       </form>
     </div>
