@@ -1,39 +1,11 @@
 {
   "posts": [
     {
-      "title": "Example Post 1",
-      "intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus mollis, enim in ornare fermentum, nibh ante iaculis tortor, vitae mollis tellus massa nec justo.",
-      "content": "Praesent hendrerit nisl scelerisque egestas posuere. Vestibulum mi quam, varius a nibh et, malesuada laoreet urna. Donec id justo lobortis, laoreet turpis volutpat, tincidunt ligula. Suspendisse potenti. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus pulvinar sapien vel iaculis viverra. Nulla accumsan justo vitae velit sodales interdum. Suspendisse ac mi sed lorem bibendum vestibulum id nec tellus. Ut mollis pulvinar tellus. Praesent accumsan, felis a sodales condimentum, nulla enim luctus risus, in ultrices sapien erat sed tellus. Maecenas facilisis enim quis neque eleifend iaculis eu vel erat. Quisque nec diam id nunc euismod euismod. Suspendisse ac mi sed lorem bibendum vestibulum id nec tellus. Ut mollis pulvinar tellus. Praesent accumsan, felis a sodales condimentum, nulla enim luctus risus, in ultrices sapien erat sed tellus. Maecenas facilisis enim quis neque eleifend iaculis eu vel erat. Quisque nec diam id nunc euismod euismod.",
-      "author": "Sam",
-      "id": "1"
-    },
-    {
-      "title": "Example Post 2",
-      "intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus mollis, enim in ornare fermentum, nibh ante iaculis tortor, vitae mollis tellus massa nec justo.",
-      "content": "Praesent hendrerit nisl scelerisque egestas posuere. Vestibulum mi quam, varius a nibh et, malesuada laoreet urna. Donec id justo lobortis, laoreet turpis volutpat, tincidunt ligula. Suspendisse potenti. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus pulvinar sapien vel iaculis viverra. Nulla accumsan justo vitae velit sodales interdum. Suspendisse ac mi sed lorem bibendum vestibulum id nec tellus. Ut mollis pulvinar tellus. Praesent accumsan, felis a sodales condimentum, nulla enim luctus risus, in ultrices sapien erat sed tellus. Maecenas facilisis enim quis neque eleifend iaculis eu vel erat. Quisque nec diam id nunc euismod euismod.",
-      "author": "Willow",
-      "id": "2"
-    },
-    {
-      "title": "Example Post 3",
-      "intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus mollis, enim in ornare fermentum, nibh ante iaculis tortor, vitae mollis tellus massa nec justo.",
-      "content": "Praesent hendrerit nisl scelerisque egestas posuere. Vestibulum mi quam, varius a nibh et, malesuada laoreet urna. Donec id justo lobortis, laoreet turpis volutpat, tincidunt ligula. Suspendisse potenti. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus pulvinar sapien vel iaculis viverra. Nulla accumsan justo vitae velit sodales interdum. Suspendisse ac mi sed lorem bibendum vestibulum id nec tellus. Ut mollis pulvinar tellus. Praesent accumsan, felis a sodales condimentum, nulla enim luctus risus, in ultrices sapien erat sed tellus. Maecenas facilisis enim quis neque eleifend iaculis eu vel erat. Quisque nec diam id nunc euismod euismod.",
-      "author": "Silje",
-      "id": "3"
-    },
-    {
       "title": "Example Post 4",
       "intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus mollis, enim in ornare fermentum, nibh ante iaculis tortor, vitae mollis tellus massa nec justo.",
       "content": "Praesent hendrerit nisl scelerisque egestas posuere. Vestibulum mi quam, varius a nibh et, malesuada laoreet urna. Donec id justo lobortis, laoreet turpis volutpat, tincidunt ligula. Suspendisse potenti. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus pulvinar sapien vel iaculis viverra. Nulla accumsan justo vitae velit sodales interdum. Suspendisse ac mi sed lorem bibendum vestibulum id nec tellus. Ut mollis pulvinar tellus. Praesent accumsan, felis a sodales condimentum, nulla enim luctus risus, in ultrices sapien erat sed tellus. Maecenas facilisis enim quis neque eleifend iaculis eu vel erat. Quisque nec diam id nunc euismod euismod.",
       "author": "Sam",
       "id": "4"
-    },
-    {
-      "title": "Example Post 5",
-      "intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus mollis, enim in ornare fermentum, nibh ante iaculis tortor, vitae mollis tellus massa nec justo.",
-      "content": "Praesent hendrerit nisl scelerisque egestas posuere. Vestibulum mi quam, varius a nibh et, malesuada laoreet urna. Donec id justo lobortis, laoreet turpis volutpat, tincidunt ligula. Suspendisse potenti. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus pulvinar sapien vel iaculis viverra. Nulla accumsan justo vitae velit sodales interdum. Suspendisse ac mi sed lorem bibendum vestibulum id nec tellus. Ut mollis pulvinar tellus. Praesent accumsan, felis a sodales condimentum, nulla enim luctus risus, in ultrices sapien erat sed tellus. Maecenas facilisis enim quis neque eleifend iaculis eu vel erat. Quisque nec diam id nunc euismod euismod.",
-      "author": "Willow",
-      "id": "5"
     },
     {
       "id": "a6b5",
@@ -43,17 +15,17 @@
       "author": "Sam"
     },
     {
-      "id": "23fc",
+      "id": "55ce",
       "title": "Test Post",
-      "intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent imperdiet, libero at ultricies dapibus, tellus turpis rutrum quam, sed euismod leo lectus ac sapien. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Proin commodo, odio non viverra accumsan, mi dolor fringilla erat, quis scelerisque ligula dolor cursus sapien. Aenean orci ligula, elementum ac lacus sed, interdum sollicitudin leo. Etiam nibh nulla, luctus sed nibh gravida, rhoncus posuere nisi. Etiam feugiat tellus sit amet mi consectetur, nec posuere nisl laoreet. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nullam accumsan mi et velit imperdiet, nec mattis nunc cursus. Duis maximus lorem vitae lacus pharetra, eget consectetur orci aliquam. Praesent vel nibh semper, posuere nisl vel, auctor magna. Morbi lectus tortor, lacinia at placerat at, posuere vel mauris.",
+      "intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent imperdiet, libero at ultricies dapibus, tellus turpis rutrum quam, sed euismod leo lectus ac sapien. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Proin commodo, odio non viverra accumsan, mi dolor fringilla erat, quis scelerisque ligula dolor cursus sapien.",
       "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent imperdiet, libero at ultricies dapibus, tellus turpis rutrum quam, sed euismod leo lectus ac sapien. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Proin commodo, odio non viverra accumsan, mi dolor fringilla erat, quis scelerisque ligula dolor cursus sapien. Aenean orci ligula, elementum ac lacus sed, interdum sollicitudin leo. Etiam nibh nulla, luctus sed nibh gravida, rhoncus posuere nisi. Etiam feugiat tellus sit amet mi consectetur, nec posuere nisl laoreet. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nullam accumsan mi et velit imperdiet, nec mattis nunc cursus. Duis maximus lorem vitae lacus pharetra, eget consectetur orci aliquam. Praesent vel nibh semper, posuere nisl vel, auctor magna. Morbi lectus tortor, lacinia at placerat at, posuere vel mauris.",
-      "author": "Willow"
+      "author": "Sam"
     },
     {
-      "id": "aa52",
-      "title": "tfhedr",
-      "intro": "erther",
-      "content": "rehesh",
+      "id": "5512",
+      "title": "Test Post 2",
+      "intro": "Morbi fermentum feugiat mauris ut tempus. In ac nunc diam. Sed nec justo vel felis ultrices aliquam. Nulla facilisi. Pellentesque eleifend vestibulum nulla, at suscipit elit posuere at. Cras iaculis mi sit amet tincidunt eleifend. In hac habitasse platea dictumst. Aliquam porta sem non purus pellentesque, sed faucibus augue sodales. Etiam et pulvinar ipsum.",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent imperdiet, libero at ultricies dapibus, tellus turpis rutrum quam, sed euismod leo lectus ac sapien. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Proin commodo, odio non viverra accumsan, mi dolor fringilla erat, quis scelerisque ligula dolor cursus sapien. Aenean orci ligula, elementum ac lacus sed, interdum sollicitudin leo. Etiam nibh nulla, luctus sed nibh gravida, rhoncus posuere nisi. Etiam feugiat tellus sit amet mi consectetur, nec posuere nisl laoreet. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nullam accumsan mi et velit imperdiet, nec mattis nunc cursus. Duis maximus lorem vitae lacus pharetra, eget consectetur orci aliquam. Praesent vel nibh semper, posuere nisl vel, auctor magna. Morbi lectus tortor, lacinia at placerat at, posuere vel mauris.",
       "author": "Silje"
     }
   ]
